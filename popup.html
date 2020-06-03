@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thirsty Penguin</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="./popup.css" />
+    <script src="./popup.js" defer></script>
+  </head>
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img
+          src="./images/penguin-logo.png"
+          alt="Sabrtraveler Launcher"
+          class="logo-icon"
+        />
+        Thirsty Penguin
+        <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>A simple app to remind you to drink water.</p>
+    </div>
+    <div class="form">
+      <form>
+        <p>Remind me in:</p>
+        <select name="dropdown">
+          <option class="one-hour" selected value="1">1 hour</option>
+          <option class="three-hour" value="3">3 hour</option>
+          <option class="five-hour" value="5">5 hour</option>
+        </select>
+      </form>
+    </div>
+  </body>
+</html>
